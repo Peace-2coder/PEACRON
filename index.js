@@ -117,28 +117,7 @@ Matrix.ev.on('connection.update', (update) => {
             console.log(chalk.green("Connected Successfully XEON XMD 🤍"));
             Matrix.sendMessage(Matrix.user.id, { 
                 image: { url: "https://files.catbox.moe/s2xj7v.jpg" }, 
-                caption: `> 𝐆ᴇᴛ 𝐑ɪɢʜᴛ 𝐖ɪᴛᴄʜ𝐀 🩷🎀 .
-╭───❍「 *𝐂ᴏɴɴᴇᴄᴛᴇ𝐃* 」
-┃ 🎀 𝐏ᴇᴀᴄᴇ 𝐌ᴅ 𝐁ᴏᴛ
-╰───────────❍
-╭───❍「 *𝐁ᴏᴛ 𝐑ᴇᴘᴏ* 」
-┃ [**Here**](https://github.com/Peacemaker-cyber/PEACE-MD) star repo!
-╰───────────❍
-╭───❍「 *𝐉ᴏɪɴ 𝐂ʜᴀɴɴᴇ𝐋* 」
-┃ [**Here**](https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10) to join!
-╰───────────❍
-╭───❍「 *𝐁ᴏᴛ 𝐎ᴡɴᴇ𝐑* 」
-┃ +254759000340
-╰───────────❍
-╭───❍「 *𝐒ʏꜱᴛᴇᴍ 𝐒ᴛᴀᴛᴜꜱ* 」
-┃ ░░░░░░░░░░░░░░░░░░░ 100%
-╰───────────❍
-╭───❍「 *𝐁ᴏᴛ 𝐏ʀᴇꜰɪ𝐱* 」
-┃ 𝐂ᴏɴꜰɪɢᴜʀ𝐄 𝐘ᴏᴜʀ 𝐏ʀᴇꜰɪ𝐗 ${prefix}
-╰───────────❍
-╭───❍「 *𝐀ᴜᴛᴏᴍᴀᴛɪᴏ𝐍* 」
-┃𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ 𝐏ᴇᴀᴄᴇ 𝐌ᴅ
-╰───────────❍`
+                caption: `╭━━ 『 ᴘᴇᴀᴄᴇ ᴍᴅ ɪɴɪᴛɪᴀʟɪᴢᴇᴅ 』\n┃  ⚡ ʙᴏᴛ ɴᴀᴍᴇ: ᴘᴇᴀᴄᴇ-ᴍᴅ \n┃  👑 ᴏᴡɴᴇʀ: ᴘᴇᴀᴄᴇᴍᴀᴋᴇʀ \n┃  ⚙️ ᴍᴏᴅᴇ: *private*\n┃  🎯 ᴘʀᴇꜰɪx: * \`${prefix}\`*\n┃  ✅ ꜱᴛᴀᴛᴜꜱ: ᴏɴʟɪɴᴇ & ꜱᴛᴀʙʟᴇ\n╰━━━━━━━━━━━━━━━━━━━╯\n\n⚠️ ʀᴇᴘᴏʀᴛ ᴀɴʏ ɢʟɪᴛᴄʜᴇꜱ ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛʜᴇ ᴏᴡɴᴇʀ.\n\n╭──────────────────★\n│ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴇᴀᴄᴇᴍᴀᴋᴇʀ\n╰──────────────────★`
             });
             initialConnection = false;
         } else {
