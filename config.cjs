@@ -49,7 +49,7 @@ const config = {
     'Just a bot, doing bot things ✨',
     'Creating magic with code... 🪄',
     `Owner: ${global.OWNER_NAME}`
-];
+],
 
   // New additions for status command
   STATUS: process.env.STATUS !== undefined ? process.env.STATUS === 'true' : false,  // enable/disable status feature
